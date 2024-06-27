@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".view.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            app:srcCompat="@drawable/partly_cloudy_day"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Weather by Location"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/buttonWeatherByLocation"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Weather by City Name"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/buttonWeatherByCityName"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
